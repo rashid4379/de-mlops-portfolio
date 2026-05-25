@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: sales_postgres
+    environment:
+      POSTGRES_USER: rashid
+      POSTGRES_PASSWORD: rashid123
+      POSTGRES_DB: salesdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - sales_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  sales_postgres_data:

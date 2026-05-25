@@ -1,8 +1,13 @@
+import sys
 import pandas as pd
+import numpy as np
+import requests
+import sqlalchemy
 import fastapi
 import sklearn
-import mlflow
 
-print("Setup is working on Mac.")
+print("Setup test successful.")
+print("Python version:", sys.version)
 print("pandas version:", pd.__version__)
+print("numpy version:", np.__version__)
 
