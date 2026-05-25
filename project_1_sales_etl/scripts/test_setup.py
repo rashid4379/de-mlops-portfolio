@@ -10,4 +10,3 @@ print("Setup test successful.")
 print("Python version:", sys.version)
 print("pandas version:", pd.__version__)
 print("numpy version:", np.__version__)
-

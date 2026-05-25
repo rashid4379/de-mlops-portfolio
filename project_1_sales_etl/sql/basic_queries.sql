@@ -5,6 +5,7 @@ VALUES
     (3, 101, '2024-01-04', 300.00),
     (4, 103, '2024-01-05', 90.00),
     (5, 102, '2024-01-07', 400.00);
+ON CONFLICT (order_id) DO NOTHING;
 
 SELECT
     customer_id,
